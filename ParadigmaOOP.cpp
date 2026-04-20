@@ -23,7 +23,7 @@ public :
 
 int main(){
     Mahasiswa mhs;
-    mhs.nim = 2022;
+    mhs.nim = 165;
     mhs.nama = "aldi taher";
     mhs.nilai = 90.5 ;
 }
