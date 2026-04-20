@@ -4,7 +4,7 @@ using namespace std;
 class Mahasiswa{
 public :
     int nim;
-    string nama:
+    string nama;
     float nilai;
 
     void printData(){
@@ -12,10 +12,11 @@ public :
         cout << "Nama : " << nama << endl;
         cout << "Nilai : " << nilai << endl;
     }
-} //batas class
+}; //batas class
 
 int main(){
     Mahasiswa mhs;
     mhs.nim = 2022;
     mhs.nama = "abra";
+    mhs.nilai = 90.5 ;
 }
